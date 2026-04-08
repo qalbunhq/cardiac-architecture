@@ -1,0 +1,192 @@
+{
+  "experiment": "marker_transplantation",
+  "donor_markers": 1000,
+  "transplant_discount": 0.5,
+  "runtime_seconds": 12.9,
+  "fleet_a_donor": [
+    {
+      "pass": 1,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 0,
+      "cardiac_accuracy": 0,
+      "llm_routed": 200,
+      "llm_accuracy": 94.5,
+      "cardiac_ratio": 0.0,
+      "markers_total": 200,
+      "fleet": "A_donor"
+    },
+    {
+      "pass": 2,
+      "total": 200,
+      "overall_accuracy": 88.0,
+      "cardiac_routed": 104,
+      "cardiac_accuracy": 87.5,
+      "llm_routed": 96,
+      "llm_accuracy": 88.5,
+      "cardiac_ratio": 52.0,
+      "markers_total": 400,
+      "fleet": "A_donor"
+    },
+    {
+      "pass": 3,
+      "total": 200,
+      "overall_accuracy": 93.0,
+      "cardiac_routed": 152,
+      "cardiac_accuracy": 98.0,
+      "llm_routed": 48,
+      "llm_accuracy": 77.1,
+      "cardiac_ratio": 76.0,
+      "markers_total": 600,
+      "fleet": "A_donor"
+    },
+    {
+      "pass": 4,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 157,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 43,
+      "llm_accuracy": 74.4,
+      "cardiac_ratio": 78.5,
+      "markers_total": 800,
+      "fleet": "A_donor"
+    },
+    {
+      "pass": 5,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 162,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 38,
+      "llm_accuracy": 71.1,
+      "cardiac_ratio": 81.0,
+      "markers_total": 1000,
+      "fleet": "A_donor"
+    }
+  ],
+  "fleet_b_transplant": [
+    {
+      "pass": 1,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 169,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 31,
+      "llm_accuracy": 64.5,
+      "cardiac_ratio": 84.5,
+      "markers_total": 1200,
+      "fleet": "B_transplant"
+    },
+    {
+      "pass": 2,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 169,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 31,
+      "llm_accuracy": 64.5,
+      "cardiac_ratio": 84.5,
+      "markers_total": 1400,
+      "fleet": "B_transplant"
+    },
+    {
+      "pass": 3,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 169,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 31,
+      "llm_accuracy": 64.5,
+      "cardiac_ratio": 84.5,
+      "markers_total": 1600,
+      "fleet": "B_transplant"
+    },
+    {
+      "pass": 4,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 169,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 31,
+      "llm_accuracy": 64.5,
+      "cardiac_ratio": 84.5,
+      "markers_total": 1800,
+      "fleet": "B_transplant"
+    },
+    {
+      "pass": 5,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 174,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 26,
+      "llm_accuracy": 57.7,
+      "cardiac_ratio": 87.0,
+      "markers_total": 2000,
+      "fleet": "B_transplant"
+    }
+  ],
+  "fleet_c_cold_start": [
+    {
+      "pass": 1,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 0,
+      "cardiac_accuracy": 0,
+      "llm_routed": 200,
+      "llm_accuracy": 94.5,
+      "cardiac_ratio": 0.0,
+      "markers_total": 200,
+      "fleet": "C_cold_start"
+    },
+    {
+      "pass": 2,
+      "total": 200,
+      "overall_accuracy": 88.0,
+      "cardiac_routed": 104,
+      "cardiac_accuracy": 87.5,
+      "llm_routed": 96,
+      "llm_accuracy": 88.5,
+      "cardiac_ratio": 52.0,
+      "markers_total": 400,
+      "fleet": "C_cold_start"
+    },
+    {
+      "pass": 3,
+      "total": 200,
+      "overall_accuracy": 93.5,
+      "cardiac_routed": 151,
+      "cardiac_accuracy": 98.7,
+      "llm_routed": 49,
+      "llm_accuracy": 77.6,
+      "cardiac_ratio": 75.5,
+      "markers_total": 600,
+      "fleet": "C_cold_start"
+    },
+    {
+      "pass": 4,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 159,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 41,
+      "llm_accuracy": 73.2,
+      "cardiac_ratio": 79.5,
+      "markers_total": 800,
+      "fleet": "C_cold_start"
+    },
+    {
+      "pass": 5,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 163,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 37,
+      "llm_accuracy": 70.3,
+      "cardiac_ratio": 81.5,
+      "markers_total": 1000,
+      "fleet": "C_cold_start"
+    }
+  ]
+}

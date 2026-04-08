@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "The Cardiac Architecture Thesis: The Missing Organ in Artificial Intelligence"
+message: "If you use this work, please cite it as follows."
+authors:
+  - family-names: "Fadil"
+    given-names: "the author"
+version: "v1.0"
+date-released: "2026-04-07"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Fadil"
+      given-names: "the author"
+  title: "The Cardiac Architecture Thesis: The Missing Organ in Artificial Intelligence"
+  year: 2026
+  notes: "Preprint / architecture thesis"

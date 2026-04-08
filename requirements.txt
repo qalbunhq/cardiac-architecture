@@ -1,0 +1,5 @@
+# Minimal dependencies
+# Most scripts use Python standard library only.
+
+# Optional routing backend for baseline_router.py uses urllib from stdlib.
+# Add external libraries here only if you extend experiments.

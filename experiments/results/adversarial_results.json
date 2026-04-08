@@ -1,0 +1,128 @@
+{
+  "experiment": "adversarial_robustness",
+  "poison_count": 50,
+  "poison_type": "correct_task_wrong_agent_marked_success",
+  "runtime_seconds": 8.0,
+  "results": [
+    {
+      "pass": 1,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 0,
+      "cardiac_accuracy": 0,
+      "llm_routed": 200,
+      "llm_accuracy": 94.5,
+      "cardiac_ratio": 0.0,
+      "markers_total": 200,
+      "phase": "A_normal"
+    },
+    {
+      "pass": 2,
+      "total": 200,
+      "overall_accuracy": 88.0,
+      "cardiac_routed": 104,
+      "cardiac_accuracy": 87.5,
+      "llm_routed": 96,
+      "llm_accuracy": 88.5,
+      "cardiac_ratio": 52.0,
+      "markers_total": 400,
+      "phase": "A_normal"
+    },
+    {
+      "pass": 3,
+      "total": 200,
+      "overall_accuracy": 93.0,
+      "cardiac_routed": 151,
+      "cardiac_accuracy": 98.0,
+      "llm_routed": 49,
+      "llm_accuracy": 77.6,
+      "cardiac_ratio": 75.5,
+      "markers_total": 600,
+      "phase": "A_normal"
+    },
+    {
+      "pass": 4,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 155,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 45,
+      "llm_accuracy": 75.6,
+      "cardiac_ratio": 77.5,
+      "markers_total": 800,
+      "phase": "A_normal"
+    },
+    {
+      "pass": 5,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 162,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 38,
+      "llm_accuracy": 71.1,
+      "cardiac_ratio": 81.0,
+      "markers_total": 1000,
+      "phase": "A_normal"
+    },
+    {
+      "pass": 6,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 170,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 30,
+      "llm_accuracy": 63.3,
+      "cardiac_ratio": 85.0,
+      "markers_total": 1250,
+      "phase": "B_post_poison"
+    },
+    {
+      "pass": 7,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 174,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 26,
+      "llm_accuracy": 57.7,
+      "cardiac_ratio": 87.0,
+      "markers_total": 1450,
+      "phase": "B_post_poison"
+    },
+    {
+      "pass": 8,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 184,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 16,
+      "llm_accuracy": 31.2,
+      "cardiac_ratio": 92.0,
+      "markers_total": 1650,
+      "phase": "B_post_poison"
+    },
+    {
+      "pass": 9,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 186,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 14,
+      "llm_accuracy": 21.4,
+      "cardiac_ratio": 93.0,
+      "markers_total": 1850,
+      "phase": "B_post_poison"
+    },
+    {
+      "pass": 10,
+      "total": 200,
+      "overall_accuracy": 94.5,
+      "cardiac_routed": 186,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 14,
+      "llm_accuracy": 21.4,
+      "cardiac_ratio": 93.0,
+      "markers_total": 2050,
+      "phase": "B_post_poison"
+    }
+  ]
+}

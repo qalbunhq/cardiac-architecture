@@ -1,0 +1,204 @@
+{
+  "experiment": "cross_domain_transfer",
+  "domain_a_agents": [
+    "compass",
+    "forge",
+    "oracle",
+    "sentinel"
+  ],
+  "domain_b_agents": [
+    "conductor",
+    "ember",
+    "quill",
+    "scout"
+  ],
+  "domain_a_tasks": 104,
+  "domain_b_tasks": 96,
+  "runtime_seconds": 7.1,
+  "domain_a_training": [
+    {
+      "pass": 1,
+      "total": 104,
+      "overall_accuracy": 94.2,
+      "cardiac_routed": 0,
+      "cardiac_accuracy": 0,
+      "llm_routed": 104,
+      "llm_accuracy": 94.2,
+      "cardiac_ratio": 0.0,
+      "markers_total": 104,
+      "phase": "train_domain_a"
+    },
+    {
+      "pass": 2,
+      "total": 104,
+      "overall_accuracy": 92.3,
+      "cardiac_routed": 53,
+      "cardiac_accuracy": 96.2,
+      "llm_routed": 51,
+      "llm_accuracy": 88.2,
+      "cardiac_ratio": 51.0,
+      "markers_total": 208,
+      "phase": "train_domain_a"
+    },
+    {
+      "pass": 3,
+      "total": 104,
+      "overall_accuracy": 92.3,
+      "cardiac_routed": 85,
+      "cardiac_accuracy": 97.6,
+      "llm_routed": 19,
+      "llm_accuracy": 68.4,
+      "cardiac_ratio": 81.7,
+      "markers_total": 312,
+      "phase": "train_domain_a"
+    },
+    {
+      "pass": 4,
+      "total": 104,
+      "overall_accuracy": 94.2,
+      "cardiac_routed": 84,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 20,
+      "llm_accuracy": 70.0,
+      "cardiac_ratio": 80.8,
+      "markers_total": 416,
+      "phase": "train_domain_a"
+    },
+    {
+      "pass": 5,
+      "total": 104,
+      "overall_accuracy": 94.2,
+      "cardiac_routed": 85,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 19,
+      "llm_accuracy": 68.4,
+      "cardiac_ratio": 81.7,
+      "markers_total": 520,
+      "phase": "train_domain_a"
+    }
+  ],
+  "cross_domain_test": [
+    {
+      "pass": 6,
+      "total": 96,
+      "overall_accuracy": 84.4,
+      "cardiac_routed": 13,
+      "cardiac_accuracy": 23.1,
+      "llm_routed": 83,
+      "llm_accuracy": 94.0,
+      "cardiac_ratio": 13.5,
+      "markers_total": 616,
+      "phase": "cross_domain_test"
+    },
+    {
+      "pass": 7,
+      "total": 96,
+      "overall_accuracy": 91.7,
+      "cardiac_routed": 32,
+      "cardiac_accuracy": 90.6,
+      "llm_routed": 64,
+      "llm_accuracy": 92.2,
+      "cardiac_ratio": 33.3,
+      "markers_total": 712,
+      "phase": "cross_domain_test"
+    },
+    {
+      "pass": 8,
+      "total": 96,
+      "overall_accuracy": 91.7,
+      "cardiac_routed": 67,
+      "cardiac_accuracy": 95.5,
+      "llm_routed": 29,
+      "llm_accuracy": 82.8,
+      "cardiac_ratio": 69.8,
+      "markers_total": 808,
+      "phase": "cross_domain_test"
+    },
+    {
+      "pass": 9,
+      "total": 96,
+      "overall_accuracy": 94.8,
+      "cardiac_routed": 69,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 27,
+      "llm_accuracy": 81.5,
+      "cardiac_ratio": 71.9,
+      "markers_total": 904,
+      "phase": "cross_domain_test"
+    },
+    {
+      "pass": 10,
+      "total": 96,
+      "overall_accuracy": 94.8,
+      "cardiac_routed": 70,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 26,
+      "llm_accuracy": 80.8,
+      "cardiac_ratio": 72.9,
+      "markers_total": 1000,
+      "phase": "cross_domain_test"
+    }
+  ],
+  "control_cold_start": [
+    {
+      "pass": 1,
+      "total": 96,
+      "overall_accuracy": 94.8,
+      "cardiac_routed": 0,
+      "cardiac_accuracy": 0,
+      "llm_routed": 96,
+      "llm_accuracy": 94.8,
+      "cardiac_ratio": 0.0,
+      "markers_total": 96,
+      "phase": "control_cold_start"
+    },
+    {
+      "pass": 2,
+      "total": 96,
+      "overall_accuracy": 89.6,
+      "cardiac_routed": 56,
+      "cardiac_accuracy": 91.1,
+      "llm_routed": 40,
+      "llm_accuracy": 87.5,
+      "cardiac_ratio": 58.3,
+      "markers_total": 192,
+      "phase": "control_cold_start"
+    },
+    {
+      "pass": 3,
+      "total": 96,
+      "overall_accuracy": 93.8,
+      "cardiac_routed": 78,
+      "cardiac_accuracy": 98.7,
+      "llm_routed": 18,
+      "llm_accuracy": 72.2,
+      "cardiac_ratio": 81.2,
+      "markers_total": 288,
+      "phase": "control_cold_start"
+    },
+    {
+      "pass": 4,
+      "total": 96,
+      "overall_accuracy": 94.8,
+      "cardiac_routed": 80,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 16,
+      "llm_accuracy": 68.8,
+      "cardiac_ratio": 83.3,
+      "markers_total": 384,
+      "phase": "control_cold_start"
+    },
+    {
+      "pass": 5,
+      "total": 96,
+      "overall_accuracy": 94.8,
+      "cardiac_routed": 81,
+      "cardiac_accuracy": 100.0,
+      "llm_routed": 15,
+      "llm_accuracy": 66.7,
+      "cardiac_ratio": 84.4,
+      "markers_total": 480,
+      "phase": "control_cold_start"
+    }
+  ]
+}
