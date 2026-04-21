@@ -3,7 +3,7 @@ title: "The Cardiac Architecture Thesis: The Missing Organ in Artificial Intelli
 message: "If you use this work, please cite it as follows."
 authors:
   - family-names: "Fadil"
-    given-names: "the author"
+    given-names: "Mohamadou"
 version: "v1.0"
 date-released: "2026-04-07"
 license: "CC-BY-4.0"
@@ -11,7 +11,7 @@ preferred-citation:
   type: article
   authors:
     - family-names: "Fadil"
-      given-names: "the author"
+      given-names: "Mohamadou"
   title: "The Cardiac Architecture Thesis: The Missing Organ in Artificial Intelligence"
   year: 2026
   notes: "Preprint / architecture thesis"

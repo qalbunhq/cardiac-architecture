@@ -1,6 +1,6 @@
 # The Cardiac Architecture: A Biologically-Inspired Approach to Experiential Learning in Multi-Agent Systems
 
-**the author Fadil**
+**Mohamadou Fadil**
 
 *April 2026*
 
